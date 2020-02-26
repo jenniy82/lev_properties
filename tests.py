@@ -91,12 +91,6 @@ def link_dictionary(lev_web_page):
     link_dics_input = []
     for i in img_links_and_alt:
         split_array = i.split()
-        # src_list = [j for j in split_array if "src=" in j]
-        # url = re.findall(r'src="(.*)"',src_list[0])
-        # title_list = [j for j in split_array if "title=" in j]
-        # print("this is title_list: ",title_list)
-        # title = re.findall(r'title="(.*)"',title_list[0])
-        # print("This is title: ",title)
         url1 = value_from_splitted_string(split_array,"src=")
         print(url1)
         title1 = value_from_splitted_string(split_array,"title=")
