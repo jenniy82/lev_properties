@@ -114,7 +114,7 @@ def link_dictionary(lev_web_page):
         dictionary = dict_format(attributes,attribute_value_list)
         if dictionary:
             link_dics_input.append(dictionary)
-        logger.debug("this is link_dics: ")
+        logger.debug("This is link_dics: ")
         logger.debug(link_dics_input)
     return link_dics_input
 
